@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RubicsCube</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_open_gles20">OpenGLES20</string>
+    <string name="button_start">Start</string>
+    <string name="Light">Light</string>
+    <string name="texture">action_texture</string>
+    <string name="Incrase">Increase</string>
+    <string name="Increase">Increase</string>
+    <string name="Decrease">Decrease</string>
+    <string name="Dec">--</string>
+    <string name="Inc">++</string>
+    <string name="title">RUBICS CUBE</string>
+    <string name="rTitle">RUBICS CUBE THE GAME</string>
+    <string name="test">This Is a Rubics Cube</string>
+    <string name="toggleLight">Light</string>
+    <string name="welcome">This is still a prototype... THIS IS THE MAIN MENU</string>
+
+</resources>

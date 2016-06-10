@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<com.example.rubicscube.MyGLSurfaceView
+	    android:id="@+id/gl_surface_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	 />
+	<LinearLayout	
+	    	android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:orientation="horizontal">
+
+		<Button
+		    android:id="@+id/button_increase"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:text="@string/Inc" />
+
+    <Button
+        android:id="@+id/button_decrease"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/Dec" />
+
+    <ToggleButton
+        android:id="@+id/button_texture"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"	
+        android:text="@string/texture"
+        android:textOff="Texture" />
+
+    <Button
+        android:id="@+id/button_light"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggleLight" />
+
+	</LinearLayout>
+
+</FrameLayout>
